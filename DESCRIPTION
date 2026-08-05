@@ -1,0 +1,27 @@
+Package: fafcarbon
+Title: Fire-Adapted Forests Carbon Accounting (Verra M0159)
+Version: 0.0.0.9000
+Authors@R:
+    person("Katharyn", "Duffy", , "katharyn@vibrantplanet.net",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0000-0000-0000"))
+Description: Reference implementation of the equations in the Verra
+    "Improved Forest Management for Fire-Adapted Forests" methodology
+    (M0159). Functions reproduce the methodology's annual, pixel-level
+    carbon accounting -- live aboveground carbon (LAG) and dead wood
+    (DW) change, fire and treatment emissions, dead-wood propagation,
+    uncertainty deduction, and crediting -- so that reviewers can run
+    the accounting logic on sample data and confirm it is conservative
+    and internally consistent. A Quarto worked example renders the
+    equations end to end on illustrative inputs.
+License: file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.1.0)
+Suggests:
+    quarto,
+    testthat (>= 3.0.0)
+VignetteBuilder: quarto
+Config/testthat/edition: 3
