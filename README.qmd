@@ -18,7 +18,7 @@ The Improved FOrest Management for Fire-Adapted Forests (M0159) quantifies the c
 
 ```r
 # install.packages("pak")
-pak::pak("Vibrant-Planet/M0159-Fire-Adapted-Forests")
+pak::pak("Vibrant-Planet-Open-Science/M0159-Fire-Adapted-Forests")
 ```
 
 ## Usage
